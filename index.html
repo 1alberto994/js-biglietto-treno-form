@@ -9,11 +9,38 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-            <input id="name-input" type="text" placeholder="inserisci il nome">
-            <input type="number" placeholder="inserisci i km">
-            <input type="text" placeholder="inserisci età">
-        </div>
+        <main>
+            <h1 class="text-uppercase text-center ">calcola il prezzo del tuo biglietto</h1>
+            <input type="number" id="km">
+            <select name="" id="eta">
+                <option value="maggiorenne">maggiorenne</option>
+                <option value="minorenne">minorenne</option>
+                <option value="over65">over65</option>
+            </select>
+            <button id="genera">
+                Genera
+            </button>
+            <!-- <form class="text-center mt-5 bg-light container rounded-3 ">
+                <div class="d-flex justify-content-around p-2">
+                    <input id="name-input" type="text" placeholder="inserisci il nome">
+                    <input type="number" placeholder="inserisci i km">
+                    <select name="" id="età">
+                    <option id="select" value="maggiorenne">maggiorenne</option>
+                    <option id="select" value="minorenne">minorenne</option>
+                    <option id="select" value="over65">over65</option>
+                </select>
+                </div>
+                <div class="mt-5">
+                    <button id="submit-buttom">
+                        genera
+                    </button>
+                    <button id="submit-buttom">
+                        annulla
+                    </button>
+                </div>
+                
+            </form> -->
+        </main>
      <script type="text/javascript" src="scripts.js"></script>   
     </body>
 </html>
